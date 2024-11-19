@@ -24,5 +24,9 @@
 
 #### Algoritmo
 
-1. Si estamos en un punto donde no hay nodos que procesar, nos detenemos y terminamos la ejecución.
-2.
+1. Si estamos en un punto donde no hay nodos restantes que procesar, nos detenemos y terminamos la ejecución.
+2. Avanzamos hacia la izquierda hasta llegar a un nodo sin hijos.
+3. Cambiamos al nodo hermano.
+4. Repetimos el paso 2. hasta que no queden nodos del lado derecho ni izquierdo.
+5. Retrocedemos a un nodo anterior que si tenga hermanos.
+6. Repetimos el paso 2 hasta que no queden nodos.
